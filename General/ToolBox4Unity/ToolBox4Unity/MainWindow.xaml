@@ -1,0 +1,22 @@
+﻿<Window
+    x:Class="ToolBox4Unity.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ToolBox4Unity"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ToolBox4Unity"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            Width="75"
+            Margin="579.193,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="OpenSetLink"
+            Content="建立软连接"
+            RenderTransformOrigin="1.051,-1.009" />
+    </Grid>
+</Window>

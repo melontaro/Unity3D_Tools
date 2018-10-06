@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBox4Unity", "ToolBox4Unity\ToolBox4Unity.csproj", "{838A19E1-C7B6-448A-9A05-91BBF6AA307A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838A19E1-C7B6-448A-9A05-91BBF6AA307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838A19E1-C7B6-448A-9A05-91BBF6AA307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838A19E1-C7B6-448A-9A05-91BBF6AA307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838A19E1-C7B6-448A-9A05-91BBF6AA307A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17F42066-D665-4A9C-B9ED-D93766D5066F}
+	EndGlobalSection
+EndGlobal
