@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 public class CopyPathScript : MonoBehaviour
 {
-    [MenuItem("GameObject/MyMenu/CopyFullPath", false, 0)]
+    [MenuItem("GameObject/CopyPath/CopyFullPath", false, 0)]
     static void InitFullPath()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
@@ -24,7 +24,7 @@ public class CopyPathScript : MonoBehaviour
         }
     }
     // GetCompomentByPath<Text>("gongfaInfo/ScrollRect/Viewport/Content/gongfaAdd/txtShengMing/txtAttri");
-    [MenuItem("GameObject/MyMenu/CopyTextByFullPath", false, 0)]
+    [MenuItem("GameObject/CopyPath/CopyTextByFullPath", false, 0)]
     static void InitFullByCommentTextPath()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
@@ -44,7 +44,7 @@ public class CopyPathScript : MonoBehaviour
             Debug.LogError("请只选择一个物体进行复制路径;");
         }
     }
-    [MenuItem("GameObject/MyMenu/CopyImageByFullPath", false, 0)]
+    [MenuItem("GameObject/CopyPath/CopyImageByFullPath", false, 0)]
     static void InitFullByCommentImagePath()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
@@ -65,7 +65,7 @@ public class CopyPathScript : MonoBehaviour
             Debug.LogError("请只选择一个物体进行复制路径;");
         }
     }
-    [MenuItem("GameObject/MyMenu/CopyParentPath", false, 0)]
+    [MenuItem("GameObject/CopyPath/CopyParentPath", false, 0)]
     static void InitParent()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
@@ -91,7 +91,7 @@ public class CopyPathScript : MonoBehaviour
             Debug.LogError("请只选择一个物体进行复制路径;");
         }
     }
-    [MenuItem("GameObject/MyMenu/CopyName", false, 0)]
+    [MenuItem("GameObject/CopyPath/CopyName", false, 0)]
     static void InitName()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
@@ -128,7 +128,7 @@ public class CopyPathScript : MonoBehaviour
         }
         return str;
     }
-    [MenuItem("GameObject/MyMenu/CreateBindPoint", false, 0)]
+    [MenuItem("GameObject/CreateBindPoint", false, 0)]
     static void CreateBindPoint()
     {
         if (Selection.gameObjects != null && Selection.gameObjects.Length == 1)
